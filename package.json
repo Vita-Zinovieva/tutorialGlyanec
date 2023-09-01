@@ -2,9 +2,20 @@
   "name": "my-project",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
+  "homepage": "https://vita-zinovieva.github.io/tutorialGlyanec",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build src/index.html"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /tutorialGlyanec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vita-Zinovieva/tutorialGlyanec"
+  },
+  "keywords": [],
+  "author": "Vita-Zinovieva ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vita-Zinovieva/tutorialGlyanec"
   },
   "devDependencies": {
     "parcel": "latest"

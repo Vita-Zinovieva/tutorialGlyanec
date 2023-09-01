@@ -19,5 +19,9 @@
   },
   "devDependencies": {
     "parcel": "latest"
+  },
+  "dependencies": {
+    "@parcel/transformer-css": "^2.9.3",
+    "@parcel/transformer-sass": "^2.9.3"
   }
 }
